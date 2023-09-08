@@ -40,9 +40,9 @@ int main (){
 				
 			case 'c':
 				do{
-				puts("\nQual o valor do deposito?");
-				fflush(stdin);
-				scanf(" %f",&mov_dinheiro);
+					puts("\nQual o valor do deposito?");
+					fflush(stdin);
+					scanf(" %f",&mov_dinheiro);
 				}while(verifica == 0);
 				
 				dinheiro = dinheiro + mov_dinheiro;
