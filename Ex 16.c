@@ -42,7 +42,7 @@ int main (){
 				do{
 					puts("\nQual o valor do deposito?");
 					fflush(stdin);
-					scanf(" %f",&mov_dinheiro);
+					verifica = scanf(" %f",&mov_dinheiro);
 				}while(verifica == 0);
 				
 				dinheiro = dinheiro + mov_dinheiro;
