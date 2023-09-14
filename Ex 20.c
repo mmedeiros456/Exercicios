@@ -8,9 +8,9 @@
 void main()
 {
 	int mat_1[N][N] = {{1,2},
-					   {2,1}};
+			   {2,1}};
 	int mat_2[N][N] = {{3,4},
-					   {5,6}};
+			   {5,6}};
 	int mat_r[N][N];
 	int i, j;
 	
