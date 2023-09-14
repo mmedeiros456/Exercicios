@@ -3,17 +3,17 @@
 
 #define N 3
 
-//prog p/ multiplicação de matrizes
+//prog p/ multiplicaÃ§Ã£o de matrizes
 
 void main()
 {
 	int mat_1[N][N] = {{1,2,3},
-					   {3,4,5},
-					   {6,7,8}};
+			   {3,4,5},
+			   {6,7,8}};
 					   
 	int mat_2[N][N] = {{1,2,3},
-					   {3,4,5},
-					   {6,7,8}};
+			   {3,4,5},
+			   {6,7,8}};
 					   
 	int mat_r[N][N];
 	int i, j, k, res_aux;
