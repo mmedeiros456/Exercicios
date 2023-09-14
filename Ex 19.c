@@ -5,8 +5,8 @@
 void main()
 {
 	int mat[N][N] = {{1,2,3},
-					 {4,5,6},
-					 {7,8,9}};
+			 {4,5,6},
+			 {7,8,9}};
 	int mat_t[N][N];
 	int i, j;
 	
@@ -24,13 +24,13 @@ void main()
 		
 	
 	
-	//transposição da matriz	
+	//transposiÃ§Ã£o da matriz	
 	for(i = 0; i < N; i++)
 		{
 			for(j = 0; j < N; j++)
 				mat_t[i][j] = mat[j][i];
 		}
-	//transposição da matriz
+	//transposiÃ§Ã£o da matriz
 	
 	
 		
